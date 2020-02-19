@@ -61,3 +61,6 @@ body {
 .form-control-lg {
   width: 455px;
 }
+.width-none {
+  width: 0;
+}
