@@ -8,6 +8,7 @@ body {
 
 .navbar .navbar-expand-lg .navbar-light .bg-light {
   background-color: transparent;
+  color: white;
 }
 .rounded-circle {
   border-width: 3px;
@@ -30,14 +31,33 @@ body {
   width: 220px;
   height: 221px;
 }
-
-.navbar-logo {
+.navbar-light .navbar-brand {
   color: #fed136;
   font-family: "Wisdom - Script";
   font-size: 26px;
   letter-spacing: 1.3px;
 }
+.navbar-logo {
+}
 .card-services-size {
   width: 40px;
   height: 39px;
+}
+.btn-warning {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+  color: white;
+}
+.form-control-lg {
+  width: 455px;
 }
