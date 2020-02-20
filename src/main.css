@@ -64,3 +64,6 @@ body {
 .width-none {
   width: 0;
 }
+.card-img .card-img-bottom .card-img-top {
+  min-width: 100%;
+}
