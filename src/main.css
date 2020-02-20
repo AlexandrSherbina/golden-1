@@ -65,5 +65,7 @@ body {
   width: 0;
 }
 .card-img .card-img-bottom .card-img-top {
+      flex-shrink: 0;
+   
   min-width: 100%;
 }
