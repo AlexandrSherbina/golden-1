@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
 }
 .bgcolor {
+  height: 100%;
   background-image: url(images/Background_Image.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
